@@ -5,6 +5,10 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+* {
+    margin: 0;
+}
+
 body {
     min-height: 95vh;
     display: flex;
@@ -14,26 +18,26 @@ body {
     flex-direction: column;
 }
 
-figure {
+main {
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 img {
-    border-radius: 10px;
-    margin: 10px;
-    max-height: 300px;
+    border-radius: 0.625rem;
+    margin: 0.625rem;
+    max-height: 18.75rem;
 }
 
 figcaption{
-    width:250px;
+    width:15.625rem;
     text-align: center;
 }
 
-h3 {
+h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 1.3em;
@@ -43,24 +47,8 @@ h3 {
 
 p {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-weight: 400;
     color: var(--grayish-blue);
-    margin-bottom: 30px;
-}
-
-.attribution {
-    display: contents;
-    font-family: 'Outfit', sans-serif;
-    font-size: 9px;
-}
-
-.attribution a {
-    text-decoration: none;
-}
-
-.vvd-qr {
-    width: 80px;
-    margin: 0;
-    border-radius: unset;
+    margin-bottom: 1.875rem;
 }
